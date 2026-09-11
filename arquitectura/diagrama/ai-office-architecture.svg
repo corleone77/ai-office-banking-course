@@ -1,0 +1,32 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="50" width="700" height="400" fill="#f0f0f0" stroke="#333" stroke-width="2" />
+  <text x="400" y="30" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">Arquitectura Enterprise AI Office</text>
+  
+  <!-- AI Gateway -->
+  <rect x="100" y="100" width="150" height="300" fill="#d1e7dd" stroke="#0f5132" stroke-width="2" />
+  <text x="175" y="250" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">AI Gateway</text>
+  
+  <!-- RAG -->
+  <rect x="300" y="100" width="150" height="140" fill="#fff3cd" stroke="#856404" stroke-width="2" />
+  <text x="375" y="170" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">RAG Engine</text>
+  
+  <!-- Multi-Agent -->
+  <rect x="300" y="260" width="150" height="140" fill="#cfe2f3" stroke="#084298" stroke-width="2" />
+  <text x="375" y="330" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Multi-Agent</text>
+  
+  <!-- FinOps -->
+  <rect x="500" y="100" width="200" height="300" fill="#f8d7da" stroke="#842029" stroke-width="2" />
+  <text x="600" y="250" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">FinOps / Cache</text>
+  
+  <!-- Arrows -->
+  <line x1="250" y1="250" x2="300" y2="170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="250" y1="250" x2="300" y2="330" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="450" y1="170" x2="500" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="450" y1="330" x2="500" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>
